@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.match-card-super-container {
+  height: 300px;
+
+  width: 220px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.match-card-main-container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bree serif';
+  color: #ffffff;
+  height: inherit;
+
+  justify-content: space-around;
+  padding: 14px;
+  border-radius: 20px;
+}
+.match-card-competing-img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.match-card-competing-team-logo {
+  height: 70px;
+}
+.match-card-competing-team-text {
+  font-size: 17px;
+  text-align: center;
+}
+.match-card-result-text {
+  text-align: center;
+  font-size: 14px;
+}
+.match-status-text {
+}
+.won-text {
+  color: #18ed66;
+}
+.lost-text {
+  color: #e31a1a;
+}
+
+@media screen and (max-width: 576px) {
+  .match-card-super-container {
+    width: 45vw;
+    height: 310px;
+  }
+  .match-card-main-container {
+    height: inherit;
+  }
+
+  .match-card-competing-team-text {
+    font-size: 16px;
+    text-align: center;
+  }
+  .match-card-result-text {
+    text-align: center;
+    font-size: 12px;
+  }
+  .match-status-text {
+  }
+}

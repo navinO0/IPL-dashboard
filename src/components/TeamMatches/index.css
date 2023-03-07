@@ -1,0 +1,145 @@
+.isLoading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Bree serif';
+  color: #ffffff;
+}
+.team-matches-main-container {
+  width: 90%;
+  margin-top: 100px;
+}
+.teamBanner-container {
+}
+.team-banner {
+  width: 100%;
+}
+.latest-matches-test {
+  font-size: 22px;
+}
+.latest-match-big-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e293b;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.column-1-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.competing-team-text {
+  font-size: 25px;
+}
+.date-text {
+  font-size: 20px;
+}
+.venue-text {
+  font-size: 15px;
+}
+.result-text {
+  font-size: 15px;
+}
+.competing-team-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.competing-img {
+  height: 230px;
+}
+.third-container {
+  width: 30%;
+}
+.heading-text {
+  text-align: end;
+  font-size: 18px;
+}
+.actual-text {
+  text-align: end;
+  font-size: 14px;
+}
+.match-card-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  list-style: none;
+}
+
+.teamrcb {
+  background-image: linear-gradient(to bottom, #f26d22, #a4261d);
+}
+.teamkkr {
+  background-image: linear-gradient(to bottom, #5755a7, #13418b);
+}
+.teamcsk {
+  background-image: linear-gradient(to bottom, #f7db00, #f26d22);
+}
+.teamk11 {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d);
+}
+.teamrr {
+  background-image: linear-gradient(to bottom, #4f5db0, #da237b);
+}
+.teammi {
+  background-image: linear-gradient(to bottom, #5755a7, #13418b);
+}
+.teamsrh {
+  background-image: linear-gradient(to bottom, #f26d22, #a4261d);
+}
+.teamdc {
+  background-image: linear-gradient(to bottom, #4f5db0, #13418b);
+}
+.hr-line {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .latest-match-big-container {
+    flex-wrap: wrap;
+  }
+  .column-1-details-container {
+    width: 60%;
+  }
+  .competing-team-logo-container {
+    width: 30%;
+  }
+  .third-container {
+    width: 100%;
+  }
+  .competing-img {
+    height: 70px;
+  }
+  .heading-text {
+    text-align: start;
+    font-size: 14px;
+  }
+  .actual-text {
+    text-align: start;
+    font-size: 13px;
+  }
+  .competing-team-text {
+    font-size: 20px;
+  }
+  .date-text {
+    font-size: 15px;
+  }
+  .venue-text {
+    font-size: 13px;
+  }
+  .result-text {
+    font-size: 13px;
+  }
+  .hr-line {
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    background-color: #ffffff;
+  }
+  .match-card-list-container {
+  }
+}
